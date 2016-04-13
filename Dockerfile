@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 MAINTAINER Alpha Hinex <AlphaHinex@gmail.com>
  
-RUN apt-get update && apt-get -y install webhttrack 
+RUN apt-get update && apt-get -y install httrack 
 
 ENV BASE /usr/local
 WORKDIR $BASE
